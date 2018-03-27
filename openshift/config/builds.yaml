@@ -36,6 +36,6 @@ objects:
             value: '0'
         from:
           kind: ImageStreamTag
-          name: nodejs-010-rhel7:latest
-          namespace: openshift3
+          name: s2i-openshift-alpine-nodejs:latest
+          namespace: drya024
       type: Source
