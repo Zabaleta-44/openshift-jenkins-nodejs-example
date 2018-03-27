@@ -82,7 +82,7 @@ objects:
             value: Pacific/Auckland
           resources:
             limits:
-              memory: 1Gi
+              memory: 500mb
           securityContext:
             capabilities: {}
             privileged: false
