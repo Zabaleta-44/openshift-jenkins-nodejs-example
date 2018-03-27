@@ -14,7 +14,7 @@ objects:
   metadata:
     name: ${SERVICE_NAME}
   spec:
-    host: ${SERVICE_NAME}
+    host: ${SERVICE_NAME}.10.0.75.2.nip.io
     to:
       kind: Service
       name: ${SERVICE_NAME}
